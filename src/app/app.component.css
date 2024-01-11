@@ -1,0 +1,29 @@
+h1{
+    color : green;
+}
+
+.special{
+    border : green solid 10px;
+}
+
+.c2{
+    color : red;
+}
+
+.active{
+    background-color: blue;
+    color : white
+}
+
+.inactive{
+    background-color: grey;
+    color : white
+}
+
+.c1{
+    border : purple solid 10px;
+}
+
+.c3{
+    background-color: orangered;
+}

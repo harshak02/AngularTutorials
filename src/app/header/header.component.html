@@ -1,0 +1,22 @@
+<p>header works!</p>
+<h2>{{childTopicName}}</h2>
+<h3>{{data1}}</h3>
+<br>
+
+<div *ngFor="let n of parr">
+    <p>{{n}}</p>
+</div>
+<div>{{test}}</div>
+<button (click)="passToParent()">Send</button>
+
+<input type="text" (input)="updateData($event.target)">
+<br>
+<br>
+<input type="text" [(ngModel)]="data2">
+
+
+<br>
+<br>
+<div>Came from Child in Child by ViewChild {{data3}}</div>
+<input type="text" [(ngModel)]="data3">
+<br>
